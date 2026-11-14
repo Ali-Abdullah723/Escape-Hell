@@ -1,0 +1,9 @@
+# Opening conversation. Format:  Speaker: line
+# Speakers: Miria, Isaac, Jensen (or "Jensen Huang"). Lines starting with # are ignored.
+
+Isaac: ...Where are we? Everything's burning.
+Miria: Hell. I'm pretty sure this is Hell.
+Jensen: Relax. Every problem is just a scaling problem.
+Isaac: Jensen, we're DEAD.
+Jensen: its jensening time.
+Miria: Stay together. Nobody gets left behind.

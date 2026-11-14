@@ -1,0 +1,32 @@
+from PIL import Image
+import os
+import math
+
+folder = "32x32"
+files = sorted(
+    f for f in os.listdir(folder)
+    if f.endswith(".png")
+)
+
+cols = 10
+rows = math.ceil(len(files) / cols)
+
+sheet = Image.new(
+    "RGBA",
+    (cols * 32, rows * 32),
+    (0, 0, 0, 0)
+)
+
+for i, file in enumerate(files):
+    img = Image.open(os.path.join(folder, file)).convert("RGBA")
+
+    if img.size != (32, 32):
+        print("Skipping:", file)
+        continue
+
+    x = (i % cols) * 32
+    y = (i // cols) * 32
+
+    sheet.paste(img, (x, y))
+
+sheet.save("tilesheet.png")

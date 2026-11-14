@@ -1,0 +1,13 @@
+# Bridge cutscene, before the choice.
+# Format:  Speaker: line      or      Speaker [mood]: line
+# Enemy moods: talk, wide, fast, laugh, whisper, sad, angry, surprised, horror
+# The enemy's speaker name is "Director".
+
+Director [laugh]: Hehehe... three little souls, wandering where they don't belong.
+Isaac: Who are you? Get out of our way.
+Director [angry]: Out of YOUR way? This chasm is mine. Nothing crosses without paying the TAX.
+Miria: We have nothing. No money, nothing.
+Director [whisper]: Oh, you have something. Meat. Marrow. Bone.
+Jensen: You want to build a bridge... out of one of us???
+Director [horror]: HA HA HA THAT IS ABSOLUTLY THE CASE 
+Director [talk] : choose wisely...thier souls might just bounce back at you 
